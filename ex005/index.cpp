@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Calculando a area de um circulo
+
 int main(void){
 	
 	float raio;

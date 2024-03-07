@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Calculando o ano que a pessoa nasceu
+
 int main(void){
 	
 	int idade;

@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Perguntando idade, primeira letra do nome, e altura e imprimindo na tela
+
 int main(void){
 	
 	int idade;

@@ -1,22 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Construa um algoritmo que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+//Construa um algoritmo que peça um número com 5 casas decimais e arredonde para duas.
 
 int main(void)
 {
-    float Lado;
-    float Area;
-    float dobroArea;
-   
-    printf("Informe a medida do lado do quadrado: ");
-    scanf("%f",&Lado);
+    float number;
     
-    Area = Lado * Lado;
-    dobroArea = Area * 2;
     
-    printf("A area do quadrado é: %.1f\n", Area);
-    printf("E o dobro da Area é: %.1f\n", dobroArea);
+    printf("Informe um número com 5 casa decimais: ");
+    scanf("%f",&number);
+    
+    printf("O Numero informado com 2 casa decimais fica %.2f\n",number);
 
     return 0;
 }

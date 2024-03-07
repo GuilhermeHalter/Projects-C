@@ -5,11 +5,18 @@
 
 int main(void)
 {
-    float number;
+    float Lado;
+    float Area;
+    float dobroArea;
    
     printf("Informe a medida do lado do quadrado: ");
-    scanf()
+    scanf("%f",&Lado);
+    
+    Area = Lado * Lado;
+    dobroArea = Area * 2;
+    
+    printf("A area do quadrado é: %.1f\n", Area);
+    printf("E o dobro da Area é: %.1f\n", dobroArea);
 
     return 0;
 }
-

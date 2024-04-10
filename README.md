@@ -15,7 +15,7 @@ Os tipos de variaveis são:
 -Bool  -> verdadeiro ou falso <br>
 
 EX:
-```bash
+```C
 #include <stdio.h>
 #include <stdlib.h>
 

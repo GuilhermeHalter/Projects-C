@@ -23,36 +23,24 @@ int main(void)
 {
     
     //amount
-    float quantidadeParafuso;
-    float quantidadeRosca; 
-    float quantidadePorca;
+    float quantidadeParafuso, quantidadeRosca, quantidadePorca;
     
     //price
-    float priceParafuso; 
-    float priceRosca; 
-    float pricePorca;
+    float priceParafuso, priceRosca, pricePorca;
     
     //tax
-    float taxParafuso; 
-    float taxRosca; 
-    float taxPorca;
+    float taxParafuso, taxRosca, taxPorca;
     
-    float taxUnitParafuso; 
-    float taxUnitRosca;
-    float taxUnitPorca;
+    float taxUnitParafuso, taxUnitRosca, taxUnitPorca;
     
     //value
-    float descontoParafuso; 
-    float descontoRosca;
-    float descontoPorca;
-    
-    float brutoParafuso; 
-    float brutoRosca;
-    float brutoPorca;
-    
-    float liquidoParafuso; 
-    float liquidoRosca;
-    float liquidoPorca;
+    float descontoParafuso, descontoRosca, descontoPorca;
+
+    //Salario Bruto
+    float brutoParafuso, brutoRosca, brutoPorca;
+
+    //Salario Liquido	
+    float liquidoParafuso, liquidoRosca, liquidoPorca;
     
     float Total;
     
